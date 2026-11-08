@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ru-RU": {
+          "name": "Копилка воды",
+          "description": "Голосовой дневник питьевого режима: навык считает выпитые стаканы воды за день.",
+          "summary": "Считает выпитую воду",
+          "examplePhrases": [
+            "Алексa, запусти копилку воды",
+            "выпил два стакана",
+            "сколько я выпил"
+          ],
+          "keywords": [
+            "вода",
+            "здоровье",
+            "дневник"
+          ]
+        }
+      },
+      "category": "HEALTH_AND_FITNESS",
+      "distributionCountries": [
+        "RU"
+      ],
+      "distributionMode": "PUBLIC"
+    },
+    "apis": {
+      "custom": {}
+    },
+    "manifestVersion": "1.0",
+    "permissions": []
+  }
+}

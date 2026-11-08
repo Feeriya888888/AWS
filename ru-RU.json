@@ -1,0 +1,77 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "копилка воды",
+      "intents": [
+        {
+          "name": "AddWaterIntent",
+          "slots": [
+            {
+              "name": "glasses",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "{glasses}",
+                "{glasses} стакана",
+                "{glasses} стаканов"
+              ]
+            }
+          ],
+          "samples": [
+            "выпил один стакан",
+            "выпила один стакан",
+            "выпил {glasses} стакана",
+            "выпил {glasses} стаканов",
+            "выпил {glasses} стакана воды",
+            "выпил {glasses} стаканов воды",
+            "запиши {glasses} стакана",
+            "запиши {glasses} стаканов",
+            "добавь {glasses} стакана",
+            "добавь {glasses} стаканов",
+            "выпил стакан",
+            "выпила стакан",
+            "стакан воды"
+          ]
+        },
+        {
+          "name": "WaterStatusIntent",
+          "slots": [],
+          "samples": [
+            "сколько я выпил",
+            "сколько я выпила",
+            "мой статус",
+            "сколько стаканов",
+            "сколько воды я выпил",
+            "покажи счётчик"
+          ]
+        },
+        {
+          "name": "ResetWaterIntent",
+          "slots": [],
+          "samples": [
+            "обнули счётчик",
+            "начни заново",
+            "сбрось счётчик",
+            "начать день заново"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
